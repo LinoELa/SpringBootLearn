@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+<!--  PROYECT METADATA -->
+
 	<groupId>es.pildoras.proyecto1</groupId>
 	<artifactId>Proyecto1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version> <!-- Significa que esta en proceso|| Nunca publicar un proyecto en SNAPSHOT-->
 	<name>Proyecto1</name>
+	
+	
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -29,6 +35,12 @@
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+	
+<!--  PROYECT METADATA -->
+	
+	
+<!-- DEPENDENCIAS -->
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -51,7 +63,10 @@
 
 	</dependencies>
 	
+<!-- DEPENDENCIAS -->
 	
+	
+<!-- PLUGIN -->
 
 	<build>
 		<plugins>
@@ -61,5 +76,7 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<!-- DEPENDENCIAS -->
 
 </project>
