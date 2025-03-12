@@ -2,6 +2,7 @@ package es.pildoras.proyecto1.Proyecto1.rest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+//import org.springframework.web.bind.annotation.ResponseBody;
 //import org.springframework.web.bind.annotation.RestController;
 
 
@@ -24,8 +25,15 @@ public class miRestController {
 	@GetMapping("/info")
 	public String informacion() {
 		
-		return "index"; 
+		return "informacion de la pagina"; 
 	}
 	
+//	
+//	@GetMapping("/info")
+//	@ResponseBody
+//	public String informacion() {
+//	    return "{\"status\":\"up\"}";
+//	}
+
 
 }
