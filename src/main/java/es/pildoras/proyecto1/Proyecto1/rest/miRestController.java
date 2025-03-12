@@ -19,5 +19,13 @@ public class miRestController {
 		return "index"; 
 	}
 	
+	
+	// 3 V8 
+	@GetMapping("/info")
+	public String informacion() {
+		
+		return "index"; 
+	}
+	
 
 }
